@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(0,170,0,255);
+}
+header{
+    background-image:url("../IMG/Banniere.jpeg");
+    height: 500px; 
+    background-size: cover;
+    background-position: 1%;
+}
+.title{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Arial';
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0% 200px;
+    font-size: 100px;
+    font-family: 'Arial';
+   
+    
+}
+a:hover{
+    background-color: rgba(0,170,0,255);
+    color: white;
+    font-size: 120px;
+}
+nav {
+    background-color:rgba(0,170,0,255) ;
+    
+    
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+article p{
+    font-size: 30px;
+    font-family: 'Arial';
+    text-align: center;
+    padding: 0% 10%;
+    color: white;
+    
+}
+article h1{
+    font-size: 50px;
+    font-family: 'Arial';
+    text-align: center;
+    color: white;
+}
+article h2{
+    font-size: 40px;
+    font-family: 'Arial';
+    text-align: center;
+    color: white;
+}
+article h3{
+    font-size: 30px;
+    font-family: 'Arial';
+    text-align: center;
+    color: white;
+}   
+
